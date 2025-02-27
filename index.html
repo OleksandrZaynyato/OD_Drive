@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OD Drive</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div class="wrap" id="wrap">
+        <header>
+            <div class="header__selected-car">
+                Your car: <br> <span id="carName">Marcedes-Benz s550</span>
+            </div>
+            <div class="header__logo" id="a">
+                OD Drive
+            </div>
+
+            <div class="header__settings">
+                <div class="header__settings-button inserting-photo" id="settingsButton"></div>
+                <div class="header__settings-menu" id="settingsMenu">
+                    <div class="header__settings-menu-sun inserting-photo" id="sun"></div>
+                    <div class="header__settings-menu-rain inserting-photo" id="rain"></div>
+                    <div class="header__settings-menu-night inserting-photo" id="night"></div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="main__road" id="road">
+                <div class="main__car" id="car">
+                    <img src="/img/car2.png" id="carImg" alt="">
+                </div>
+            </div>
+            <div id="popup1" class="popup">
+                <div class="popup-content">
+                    <p>ЧуВаЧок😄заведи🤔машину😅!</p>
+                </div>
+            </div>
+            <div id="passwordPopup" class="popup">
+                <div class="popup-content">
+                    <div class="close-popup" id="closePasswordPopup"><img src="/img/close.png" alt="close"></div>
+                    <label for="passwordInput">Enter Code:</label>
+                    <input type="password" id="passwordInput" />
+                    <button id="confirmPasswordButton">Confirm</button>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="car__settings">
+                <div class="car__settings-container-salon-car panel-style">
+                    <div class="salon-car-button inserting-photo" id="carSalonButton"></div>
+                    <div class="salon-car" id="carSalon">
+                        <div class="close-salon-button inserting-photo" id="closeSalon"></div>
+                        <div class="bardachok-open-button" id="bardachokOpenButton"></div>
+
+                        <div class="bardachok-open" id="bardachokOpen">
+                            <div class="close-bardachok-button inserting-photo" id="closeBardachok"></div>
+                            <div class="envelope-button" id="envelopeButton"></div>
+                            <div class="close-envelope-button inserting-photo" id="closeEnvelope"></div>
+                            <div class="envelope" id="envelope">
+
+                                <p id="codeTxt">code: <br>c2123</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="car__settings-power panel-style">
+                    <p>Power</p>
+                    <div class="scale">
+                        <div id="speed_6"></div>
+                        <div id="speed_5"></div>
+                        <div id="speed_4"></div>
+                        <div id="speed_3"></div>
+                        <div id="speed_2"></div>
+                        <div id="speed_1"></div>
+                    </div>
+                </div>
+                <div class="car__settings-management panel-style">
+                    <div class="control__buttons_not-engaine" id="controlButtonsNotEngaine"><img src="/img/x-mark.png"
+                            alt="x-mark"></div>
+                    <div class="control__buttons">
+                        <div id="popup" class="popup">
+                            <div class="popup-content">
+                                <p>ЧуВаЧок😄обери🤔передачу!😅</p>
+                            </div>
+                        </div>
+                        <div class="control__button-top inserting-photo" id="go_top"></div>
+                        <div class="control__button-bottom inserting-photo" id="go_bottom"></div>
+                        <div class="control__button-direction inserting-photo" id="direction"></div>
+                        <div class="control__button-left inserting-photo" id="go_left"></div>
+                        <div class="control__button-right inserting-photo" id="go_right"></div>
+                    </div>
+                    <div class="car__headlights_not-engaine" id="carHeadLightsNotEngaine"><img src="/img/x-mark.png"
+                            alt="x-mark"></div>
+                    <div class="control__condition panel-style">
+                        <div class="car__headlights inserting-photo" id="carHeadLights"></div>
+                        <div class="car__alert inserting-photo" id="carAlert"></div>
+                        <div class="car__change inserting-photo" id="carChange"></div>
+                    </div>
+                </div>
+                <div class="car__settings-transmission panel-style">
+                    <div>
+                        <div class="icon_container">
+                            <div class="motor inserting-photo"></div>
+                        </div>
+                    </div>
+                    <div class="transmission_not-engaine" id="transmissionNotEngaine"><img src="/img/x-mark.png"
+                            alt="x-mark"></div>
+                    <div class="list__transmission">
+                        <div>
+                            <div id="transfer_1">1</div>
+                            <div id="transfer_3">3</div>
+                            <div id="transfer_5">5</div>
+                        </div>
+                        <div>
+                            <div id="transfer_2">2</div>
+                            <div id="transfer_4">4</div>
+                            <div id="transfer_6">6</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="car__settings-container-engaine panel-style">
+                    <div class="engaine inserting-photo" id="engaine"></div>
+                </div>
+            </div>
+
+            <div class="choose__car" id="chooseCar">
+                <div>
+                    <div class="choose__car-1" id="car_1">
+
+                    </div>
+                    <div class="choose__car-2" id="car_2">
+
+                    </div>
+                </div>
+                <div>
+                    <div class="choose__car-3" id="car_3">
+
+                    </div>
+                    <div class="choose__car-4" id="car_4">
+
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+
+
+    <script src="/main.js"></script>
+</body>
+
+</html>
