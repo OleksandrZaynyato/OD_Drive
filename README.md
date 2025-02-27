@@ -11,7 +11,7 @@ Start your trip
       git clone [https://github.com/MaxPoshyvak/TripSting.git](https://github.com/OleksandrZaynyato/Cars_game.git)
 2. Startup:
     ```sh
-    
+    run project
 
 
 ---
